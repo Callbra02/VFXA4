@@ -493,6 +493,25 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 31.638, y: -71.096, z: 0}
+--- !u!1 &1096186212 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 57165362481721b47b83846edfc704ec, type: 3}
+  m_PrefabInstance: {fileID: 1370231256}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1096186215
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1096186212}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de1907831a1acbc4aae62e5d597e09da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _attackAction: {fileID: -2099379676528639254, guid: e855917f98e71b2499d14d3819c61bb4, type: 3}
+  attackTimerMax: 1.2
 --- !u!1001 &1370231256
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -915,7 +934,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 57165362481721b47b83846edfc704ec, type: 3}
       propertyPath: m_Name
-      value: Ch36_nonPBR
+      value: Player
       objectReference: {fileID: 0}
     - target: {fileID: 1017971965920130908, guid: 57165362481721b47b83846edfc704ec, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -1183,7 +1202,10 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: -1444648241424511210, guid: 57165362481721b47b83846edfc704ec, type: 3}
       insertIndex: 0
       addedObject: {fileID: 207203071}
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 57165362481721b47b83846edfc704ec, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1096186215}
   m_SourcePrefab: {fileID: 100100000, guid: 57165362481721b47b83846edfc704ec, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
